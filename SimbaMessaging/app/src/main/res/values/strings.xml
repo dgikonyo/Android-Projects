@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SimbaMessaging</string>
+    <string name="enter_your_message_here">Enter your Message here</string>
+    <string name="sendButton">send</string>
+    <string name="message_recieved">Message recieved</string>
+    <string name="the_message">message</string>
+    <string name="reply">reply</string>
+</resources>

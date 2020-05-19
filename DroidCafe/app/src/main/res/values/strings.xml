@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DroidCafe</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="droid_deserts_heading">Droid Deserts</string>
+    <string name="droid_choose_desert">Choose Desert</string>
+
+    <string name="donut_description">Donuts are glazed and filled topped with chocolate</string>
+    <string name="ice_cream_description">Ice Cream with vanilla filling</string>
+    <string name="froyo_description">Froyo is the premium served frozen yogurt with Blueberry and Strawberry toppings</string>
+
+    <string name="donut_order">You have ordered a Donut!</string>
+    <string name="iceCream_order">You have ordered an Ice Cream!</string>
+    <string name="froyo_order">You have ordered a Froyo Yogurt!</string>
+
+    <string name="choose_delivery_method">Choose Delivery Method</string>
+    <string name="same_day_as_messenger_service">Same day as messenger service</string>
+    <string name="next_day_ground_delivery">Next day ground delivery</string>
+    <string name="pickup">Pickup</string>
+    <string name="about_us">About us</string>
+    <string name="order">Order</string>
+    <string name="order_status">Status</string>
+    <string name="call_us">Call Us</string>
+    <string name="locate_us">Locate Us</string>
+    <string name="name">Name</string>
+    <string name="any_note">Note</string>
+    <string name="enter_phone">Phone</string>
+
+</resources>
