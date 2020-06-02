@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SafeSpace</string>
+    <string name="empty_list">Empty List</string>
+    <string name="add_item">Add Item</string>
+    <string name="enter_the_title">Enter the title</string>
+    <string name="make_your_entry">Make your entry</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="enter_space_description">Enter Space Description</string>
+    <string name="enter_space_title">Enter Space title</string>
+    <string name="update_space">Update space</string>
+    <string name="delete_space">Delete space</string>
+</resources>
