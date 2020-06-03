@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "800505336377",
+    "firebase_url": "https://firecamera-b0392.firebaseio.com",
+    "project_id": "firecamera-b0392",
+    "storage_bucket": "firecamera-b0392.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800505336377:android:26f3772f94e77e2b1673e8",
+        "android_client_info": {
+          "package_name": "com.gikonyo.firecamera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800505336377-voa2e3qpd83h9a6j4rsm3a851ho6qif2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gikonyo.firecamera",
+            "certificate_hash": "d076064771c1df263c3ea01189f75c454b7134c6"
+          }
+        },
+        {
+          "client_id": "800505336377-s9bhvf5gjht82127lch47qv2eboc25km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgtg4liu6mCoK3dpPR8Iz85383pWoX1fA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800505336377-s9bhvf5gjht82127lch47qv2eboc25km.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

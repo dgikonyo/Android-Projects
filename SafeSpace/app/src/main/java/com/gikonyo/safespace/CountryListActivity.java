@@ -14,7 +14,7 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class CountryListActivity extends AppCompatActivity {
 //here we use this activity to show our data from the db
 
     private DBManager dbManager;
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setEmptyView(findViewById(R.id.empty));
 
 
-        theAdapter=new SimpleCursorAdapter(this,R.layout.activity_view_record_, cursor,
+        theAdapter=new SimpleCursorAdapter(this,R.layout.activity_view_record, cursor,
                 from, to, 0  );
 
         theAdapter.notifyDataSetChanged();

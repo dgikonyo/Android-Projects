@@ -1,7 +1,5 @@
 package com.gikonyo.safespace;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -72,6 +70,7 @@ public class ModifyMainActivity extends Activity implements View.OnClickListener
     }
 
     public void returnToHome(){
-        Intent home_intent=new Intent(getApplicationContext(),MainActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        Intent home_intent=new Intent(getApplicationContext(), CountryListActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(home_intent);
     }
 }

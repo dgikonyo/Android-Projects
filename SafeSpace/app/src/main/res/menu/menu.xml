@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
-   tools:context="com.gikonyo.safespace.MainActivity" >
+   tools:context="com.gikonyo.safespace.CountryListActivity" >
     <item
         android:id="@+id/add_record"
         android:icon="@android:drawable/ic_menu_add"

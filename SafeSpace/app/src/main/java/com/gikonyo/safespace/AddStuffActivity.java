@@ -1,7 +1,5 @@
 package com.gikonyo.safespace;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -46,8 +44,8 @@ public class AddStuffActivity extends Activity implements View.OnClickListener {
 
                 dbManager.insert(name,desc);//so now we insert into the database
 
-                Intent main =new Intent(AddStuffActivity.this, MainActivity.class)
-                        .setFlags(Intent.FLAC_ACTIVITY_CLEAR_TOP);
+                Intent main =new Intent(AddStuffActivity.this, CountryListActivity.class)
+                        .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 //so here, after the data is saved,we will be redircted to the listactivity that contains all the records
 
                 startActivity(main);

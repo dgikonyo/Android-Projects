@@ -14,6 +14,7 @@ public class DBManager {
 
     //WE CREATE THE CONSTRUCTOR
     public DBManager(Context c){
+
         context=c;
     }
 
@@ -21,13 +22,12 @@ public class DBManager {
         dbHelper=new DatabaseHelper(context);//we are creating an instance and passing the context to it
         database=dbHelper.getWritableDatabase();
 
-        return  this;
+        return this;
     }
 
     public void close(){
 
         dbHelper.close();//we are closing the DatabaseHelper class
-
 
     }
 
@@ -46,8 +46,9 @@ public class DBManager {
                 DatabaseHelper.DESC};
         //the Cursor will help us to get to our result set
 
-        Cursor cursor=database.query(DatabaseHelper.TABLE_NAME, columns,null,
-                null,null,null,null);
+        Cursor cursor=database.query(DatabaseHelper.TABLE_NAME, columns,
+                null, null,
+                null,null,null);
 
         if(cursor!=null){//if the value of the cursor is not null, it will move tp the first record
             cursor.moveToFirst();
@@ -60,7 +61,7 @@ public class DBManager {
         contentValues.put(DatabaseHelper.SUBJECT, name);
         contentValues.put(DatabaseHelper.DESC, desc);
          int i  =database.update(DatabaseHelper.TABLE_NAME,contentValues
-         , DatabaseHelper._ID + "="+ _id,null);
+         , DatabaseHelper._ID + " = "+ _id,null);
 
          return i;
     }
